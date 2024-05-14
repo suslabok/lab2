@@ -1,8 +1,8 @@
 #include <iostream>
-#include "linkedliststack.h"
+#include "LinkedListstack.h"
 
 int main(){
-    linkedliststack ls;
+    LinkedListstack ls;
 
     std::cout << "\n  push some element on the stack\n";
     ls.push(1);
