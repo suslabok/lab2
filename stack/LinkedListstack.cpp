@@ -1,32 +1,33 @@
 #include <iostream>
-#include "LinkedListstack.h"
+#include "linkedliststack.h"
+#include "linkedlist.h"
 
-void LinkedListstack::push(int element)
+void linkedliststack::push(int element)
 {
-    list.addToHead(element);
+    l.addToHead(element);
 }
 
-void LinkedListstack::pop()
+void linkedliststack::pop()
 {
-    list.removeHead();
+    l.removeHead();
 }
 
-void LinkedListstack::display()
+void linkedliststack::display()
 {
-    list.traverse();
+    l.traverse();
 }
 
-bool LinkedListstack::isEmpty()
+bool linkedliststack::isEmpty()
 {
-    return list.isEmpty();
+    return l.isEmpty();
 }
 
-int LinkedListstack::top()
+int linkedliststack::top()
 {
-    if (isEmpty())
+    if (l.isEmpty())
     {
-        std::cout << "\nThe stack is empty\n";
-        return -1; // Return some default value indicating error
+        std::cout << "\nthe stack is empty\n";
+        return -1;
     }
-    return list.getHead()->info;  
+    return l.head->info;
 }

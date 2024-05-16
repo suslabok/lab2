@@ -1,5 +1,5 @@
 #pragma once
-#include "../lab1/Linkedlist.h"
+#include "linkedlist.h"
 #include "queue.h"
 
 class linkedlistqueue : public Queue
@@ -19,5 +19,3 @@ class linkedlistqueue : public Queue
     private:
     LinkedList lq;
 };
-
-

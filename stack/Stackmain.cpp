@@ -1,10 +1,10 @@
 #include <iostream>
-#include "LinkedListstack.h"
+#include "linkedliststack.h"
 
 int main(){
-    LinkedListstack ls;
+    linkedliststack ls;
 
-    std::cout << "\n  push some element on the stack\n";
+    std::cout << "\nlet's push some element on the stack\n";
     ls.push(1);
     ls.push(2);
     ls.push(3);
@@ -12,14 +12,14 @@ int main(){
     std::cout << "\nthe top lement is:\n";
     std::cout << ls.top() << "\n";
 
-    std::cout << "\n the list\n";
+    std::cout << "\nlet's view the list\n";
     ls.display();
     std::cout << "\n";
     
-    std::cout << "\n pop the top element\n";
+    std::cout << "\nlet's pop the top element\n";
     ls.pop();
 
-    std::cout << "\n the list\n";
+    std::cout << "\nlet's view the list\n";
     ls.display();
     
     std::cout << "\nthe top element is:\n";

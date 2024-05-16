@@ -1,16 +1,20 @@
 #pragma once
+#include "linkedlist.h"
 #include "stack.h"
 
-class LinkedListStack : public Stack {
+class linkedliststack : public stack
+{
 private:
-    LinkedList list;  
+    LinkedList l;
 
 public:
-    LinkedListStack() {}
-    ~LinkedListStack() {}
+    linkedliststack(){};
+    ~linkedliststack(){};
 
     void push(int element);
     void pop();
+    void display();
     bool isEmpty();
     int top();
 };
+

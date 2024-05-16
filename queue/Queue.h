@@ -1,4 +1,7 @@
 #pragma once
+#ifndef Queue_h
+#define Queue_h
+
 class  Queue{
     public:
     Queue(){}
@@ -12,3 +15,4 @@ class  Queue{
     virtual int back()=0;
     virtual void display()=0;
 };
+#endif
