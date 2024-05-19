@@ -12,7 +12,7 @@ public:
     ~linkedliststack(){};
 
     void push(int element);
-    void pop();
+    int pop();
     void display();
     bool isEmpty();
     int top();

@@ -7,9 +7,12 @@ void linkedliststack::push(int element)
     l.addToHead(element);
 }
 
-void linkedliststack::pop()
+int linkedliststack::pop()
 {
-    l.removeHead();
+
+    int element=l.head->info;
+     l.removeHead();
+     return element;
 }
 
 void linkedliststack::display()

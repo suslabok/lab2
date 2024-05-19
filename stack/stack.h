@@ -7,7 +7,7 @@ class stack{
         stack(){};
         ~stack(){};
         virtual void push(int element)=0;
-        virtual void pop()=0;
+        virtual int pop()=0;
         virtual void display()=0;
         virtual bool isEmpty()=0;
         virtual int top()=0;
