@@ -1,5 +1,5 @@
 #include <iostream>
-#include "linkedlistqueue.h"
+#include "../include/linkedlistqueue.h"
 
 int main(){
     linkedlistqueue lq;

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "arraystack.h"
+#include "../include/arraystack.h"
 
 int main(){
     ArrayStack as(5);

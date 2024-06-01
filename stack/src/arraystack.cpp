@@ -1,4 +1,4 @@
-#include "arraystack.h" 
+#include "../include/arraystack.h" 
 #include <iostream>
 
 bool ArrayStack::isEmpty()

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "linkedliststack.h"
-#include "linkedlist.h"
+#include "../include/linkedliststack.h"
+#include "../include/linkedlist.h"
 
 void linkedliststack::push(int element)
 {

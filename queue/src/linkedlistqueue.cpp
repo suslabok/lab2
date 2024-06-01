@@ -1,5 +1,5 @@
 #include <iostream>
-#include "linkedlistqueue.h"
+#include "../include/linkedlistqueue.h"
 
 void linkedlistqueue ::enqueue(int element)
 {

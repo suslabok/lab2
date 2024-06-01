@@ -1,4 +1,4 @@
-#include "linkedlist.h"
+#include "../include/linkedlist.h"
  
 bool LinkedList::isEmpty(){
     return head == nullptr;
